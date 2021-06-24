@@ -1,0 +1,42 @@
+
+  
+  .box-size {
+    padding-bottom: 94px;
+  }
+  
+  .works {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    padding-bottom: 94px;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+  }
+
+  .advantage, .team__container, .clients, .presentation {
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+    // @media screen and (min-width:480px) and (max-width:1200PX) {
+    //   .advantage {
+    //     width: 786px;
+    //   }
+    // }
+    @media screen and (max-width:1200px) {
+      .works {display: none;}
+    }
+    // @media screen and (max-width:480px) {
+    //   .team {}
+    // }

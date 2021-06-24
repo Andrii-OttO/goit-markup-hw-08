@@ -1,0 +1,22 @@
+.footer {
+    background: var(--background-grey);
+    color: #ffffff;
+    
+  }
+  .footer_aline {
+    display: flex;
+    align-items: baseline;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  @media screen and(max-width:480px) {
+    .footer_aline {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+    }
+  }
