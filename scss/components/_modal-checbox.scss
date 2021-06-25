@@ -2,15 +2,15 @@
     display: flex;
     align-items: center;
     margin-top: 20px;
-    width: 100%;
+    margin-bottom: 30px;
   }
   .modal_checkbox__icon {
     width: 16px;
     height: 15px;
-    margin-right: 9px;
+    margin-right: 10px;
     margin-left: 9px;
     background-image: url(../images/check-border.svg);
-  
+    background-repeat: no-repeat;
   .modal_checkbox__check:checked + & {
     width: 16px;
     height: 15px;
