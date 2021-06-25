@@ -19,19 +19,9 @@
     padding-top: 24px;
     padding-bottom: 25px;
     }
-    .mobile_menu {
-      margin-left: auto;
-    }
-  @media screen and (max-width: 480px) {
-  .header {
-    width: auto;
-    }
-  // 
   .header_container{
     width: auto;
     }
-}
-   @media  screen and (min-width: 481px) {
+   @media  screen and (min-width: 767px) {
     .burger {display: none; }
-
    }

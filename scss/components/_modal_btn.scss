@@ -23,9 +23,7 @@
 }
 //modal_button__send btn=============
 .modal_button__send {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   width: 200px;
   height: 50px;
   background: var(--blue);
@@ -34,7 +32,7 @@
   border-radius: 4px;
   border-color: inherit;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin: 30px auto;
+  margin: 0 auto;
 
 &:hover,
 &:focus {
@@ -50,7 +48,7 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border:none;
   background: transparent;
 &:hover,
 &:focus {

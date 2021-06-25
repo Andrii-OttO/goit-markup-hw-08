@@ -34,7 +34,10 @@
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav__link__current::after {
+.nav__link__current {
+  color: var(--blue);
+  text-decoration: none;
+&::after {
   position: relative;
   content: "";
   display: block;
@@ -44,10 +47,7 @@
   height: 4px;
   left: 0;
   bottom: -26px;
-}
-.nav__link__current {
-  color: var(--blue);
-  text-decoration: none;
+  }
 }
 .nav__address__contact {
   font-weight: 500;
