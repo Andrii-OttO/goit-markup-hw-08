@@ -65,3 +65,12 @@
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 }
+@media screen and (max-width:767px) {
+  .buttons {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .buttons_list:nth-child(n+4),.buttons_list:nth-child(n+5) {
+    margin-top: 15px;
+  }
+}

@@ -74,7 +74,7 @@
   //   flex-basis: calc((100% - 90px) / 3);
   // }
 }
-@media screen and (min-width:767px) and (min-width:1200px) {
+@media screen and (min-width:767px) and (max-width:1200px) {
   .presentation__list {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +84,6 @@
   .presentation__item {
     margin-top: 30px;
     margin-left: 30px;
-    flex-basis: calc((100% - 90px) / 3);
+    flex-basis: calc((100% - 60px) / 2);
   }
 }
