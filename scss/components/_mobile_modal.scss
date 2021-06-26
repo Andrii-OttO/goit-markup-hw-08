@@ -12,11 +12,6 @@
     }
    }
 }
-.mobile_modal.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-}
 .mobile_modal {
     position: fixed;
     top: 0;
@@ -118,4 +113,9 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .mobile_modal {
         display: none;
     }
+}
+.mobile_modal.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }

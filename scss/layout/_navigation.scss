@@ -41,12 +41,14 @@
   position: relative;
   content: "";
   display: block;
+  // transform: translateY(8px);
   background: #2196f3;
   border-radius: 2px;
   width: auto;
   height: 4px;
   left: 0;
   bottom: -26px;
+  
   }
 }
 .nav__address__contact {
@@ -61,9 +63,22 @@
   align-items: center;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-   @media screen and (max-width:480px) {
-    .nav__address, .nav__list { display: none ;
-      
-   }
-   }
+@media screen and (max-width:767px) {
+  .nav__address, .nav__list { 
+    display: none ;
+ }
+ }
+@media  screen and (min-width: 768px) and (max-width:1200px) {
   
+  .nav__address {
+    display: block;
+    flex-direction: column;
+    padding-left: 84px;
+  }
+  .nav__address__contact:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  // .nav__link__current::after {
+  //   bottom: -37px;
+  // }
+ }
