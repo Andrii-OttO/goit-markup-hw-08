@@ -6,7 +6,7 @@
   .footer_aline {
     display: flex;
     align-items: baseline;
-    width: auto;
+    width: 480px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -18,5 +18,17 @@
       flex-direction: column;
       text-align: center;
       align-items: center;
+    }
+  }
+  @media screen and (min-width:768px) and (max-width:1200px) {
+    .footer_aline {
+      width: 768px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media screen and (min-width:1200px) {
+    .footer_aline {
+      width: 1200px;
     }
   }

@@ -3,7 +3,7 @@
   }
   
   .works {
-    width: auto;
+    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -20,21 +20,26 @@
   }
 
   .advantage, .team__container, .clients, .presentation {
-    width: auto;
+    width: 480px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
     padding-top: 94px;
     padding-bottom: 94px;
   }
-    // @media screen and (min-width:480px) and (max-width:1200PX) {
-    //   .advantage {
-    //     width: 480px;
-    //   }
-    // }
+    @media screen and (min-width:768px) and (max-width:1200PX) {
+      .advantage, .team__container, .clients, .presentation {
+        width: 768px;
+      }
+    }
+  @media screen and (min-width:1200px) {
+    .advantage, .team__container, .clients, .presentation {
+      width: 1200px;
+    }
+  }
     @media screen and (max-width:1200px) {
       .works {display: none;}
-    }
+    } 
     // @media screen and (max-width:480px) {
     //   .team {}
     // }

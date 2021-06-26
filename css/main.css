@@ -17,6 +17,7 @@ ul {
 
 img {
   display: block;
+  width: 100%;
 }
 
 body {
@@ -45,7 +46,7 @@ body {
 }
 
 .works {
-  width: auto;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -63,12 +64,24 @@ body {
 }
 
 .advantage, .team__container, .clients, .presentation {
-  width: auto;
+  width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200PX) {
+  .advantage, .team__container, .clients, .presentation {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .advantage, .team__container, .clients, .presentation {
+    width: 1200px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -549,18 +562,26 @@ body {
 .header_container {
   display: flex;
   align-items: center;
-  width: auto;
+  width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
   padding-top: 24px;
   padding-bottom: 25px;
-  width: auto;
 }
 
 @media screen and (min-width: 767px) {
   .burger {
     display: none;
+  }
+  .header_container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .header_container {
+    width: 1200px;
   }
 }
 
@@ -572,7 +593,7 @@ body {
 .footer_aline {
   display: flex;
   align-items: baseline;
-  width: auto;
+  width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -585,6 +606,20 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer_aline {
+    width: 768px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer_aline {
+    width: 1200px;
   }
 }
 
@@ -747,6 +782,14 @@ body {
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1200px) {
+  .subscrib {
+    flex-direction: column;
+    display: block;
+    margin-top: 60px;
   }
 }
 
