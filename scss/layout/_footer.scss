@@ -1,7 +1,6 @@
 .footer {
     background: var(--background-grey);
     color: #ffffff;
-    
   }
   .footer_aline {
     display: flex;
@@ -24,7 +23,7 @@
     .footer_aline {
       width: 768px;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: space-around;
     }
   }
   @media screen and (min-width:1200px) {

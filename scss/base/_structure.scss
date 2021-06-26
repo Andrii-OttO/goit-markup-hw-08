@@ -1,7 +1,6 @@
   .box-size {
     padding-bottom: 94px;
   }
-  
   .works {
     width: 1200px;
     padding-left: 15px;
@@ -43,3 +42,29 @@
     // @media screen and (max-width:480px) {
     //   .team {}
     // }
+    // .customers__list {
+    //   display: flex;
+    //   flex-wrap: wrap;
+    //   justify-content: center;
+    //   align-items: center;
+    //   margin-left: -30px;
+    //   margin-top: -30px;
+    // }
+    // .customers__item {
+    //   margin-left: 30px;
+    //   margin-top: 30px;
+    //   flex-basis: calc((100% - 60px) / 2);
+    // }
+    // .customers__link {
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    // @media screen and (min-width: 768px) {
+    //   .customers__item {
+    //     flex-basis: calc((100% - 90px) / 3);
+    //   }
+    // }
+    // @media screen and (min-width: 1200px) {
+    //   .customers__item {
+    //     flex-basis: calc((100% - 180px) / 6);}
+    //   }
