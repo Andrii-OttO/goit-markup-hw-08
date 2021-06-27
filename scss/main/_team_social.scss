@@ -30,9 +30,9 @@
   fill: var(--background);
 }
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:1200px) {
   .team__social__list {
-    width:auto;
-    margin: 0 auto;
+    justify-content: center;
   }
+  
 }

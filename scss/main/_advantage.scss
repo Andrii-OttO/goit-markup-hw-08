@@ -22,7 +22,6 @@
 @media  screen and (min-width:1200px) {
 .advantage__item {
   // width: 270px;
-
 &:not(:last-child) {
   margin-right: 30px;
   }
@@ -43,7 +42,7 @@
     align-items: center;
     justify-content: center;
   }
-  .advantage__title {
+  .advantage__item:not(:last-child) {
     margin-bottom: 30px;
   }
 }
