@@ -1,30 +1,30 @@
- .nav {
-    display: flex;
-    align-items: center;
-  }
-  .nav__list {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-  
-    & :hover,
-    & :focus {
-  color: #2196f3;
+.nav {
+  display: flex;
+  align-items: center;
 }
-  }
-  .nav__address {
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-  
-    & :hover,
-    & :focus {
-  color: #2196f3;
+.nav__list {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+
+  & :hover,
+  & :focus {
+color: #2196f3;
 }
-  }
-  .nav__item:not(:last-child) {
-    margin-right: 50px;
-  }
+}
+.nav__address {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+
+  & :hover,
+  & :focus {
+color: #2196f3;
+}
+}
+.nav__item:not(:last-child) {
+  margin-right: 50px;
+}
 .nav__link {
   font-weight: 500;
   font-size: 14px;
@@ -48,7 +48,6 @@
   height: 4px;
   left: 0;
   bottom: -26px;
-  
   }
 }
 .nav__address__contact {
@@ -69,14 +68,13 @@
  }
  }
 @media  screen and (min-width: 768px) and (max-width:1200px) {
-  
   .nav__address {
     display: block;
     flex-direction: column;
     padding-left: 84px;
   }
-  .nav__address__contact:not(:last-child) {
-    margin-bottom: 10px;
+  .nav__item:nth-child(:last-child) {
+    margin-top: 10px;
   }
   // .nav__link__current::after {
   //   bottom: -37px;

@@ -573,11 +573,10 @@ body {
   display: flex;
   align-items: center;
   width: 480px;
+  height: 80px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 @media screen and (min-width: 767px) {
@@ -929,8 +928,8 @@ body {
     flex-direction: column;
     padding-left: 84px;
   }
-  .nav__address__contact:not(:last-child) {
-    margin-bottom: 10px;
+  .nav__item:nth-child(:last-child) {
+    margin-top: 10px;
   }
 }
 
@@ -1226,7 +1225,7 @@ body {
   top: 0;
   padding: 63px 24px;
   background: rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
+  transform: translateY(1000%);
 }
 
 .presentation__link {
