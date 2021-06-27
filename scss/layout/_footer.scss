@@ -1,6 +1,8 @@
 .footer {
     background: var(--background-grey);
     color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .footer_aline {
     display: flex;
@@ -9,8 +11,6 @@
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    padding-top: 60px;
-    padding-bottom: 60px;
   }
   @media screen and(max-width:767px) {
     .footer_aline {

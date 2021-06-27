@@ -41,7 +41,6 @@ color: #2196f3;
   position: relative;
   content: "";
   display: block;
-  // transform: translateY(8px);
   background: #2196f3;
   border-radius: 2px;
   width: auto;
@@ -71,12 +70,20 @@ color: #2196f3;
   .nav__address {
     display: block;
     flex-direction: column;
-    padding-left: 84px;
+    margin-left: 84px;
   }
-  .nav__address__contact:first-child {
+  .nav__address__contact {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
+  
+  &:first-child {
     margin-bottom: 10px;
   }
-  // .nav__link__current::after {
-  //   bottom: -37px;
-  // }
+}
+ }
+ @media  screen and (min-width: 1200px) {
+  .nav__address_item:nth-child(1) {
+    margin-right: 50px;
+  }
  }

@@ -68,7 +68,7 @@
     display: block;
     flex-direction: column;
   }
-  .presentation__thumb {
+  .presentation__thumb:not(:last-child) {
     margin-bottom: 30px;
   }
 }

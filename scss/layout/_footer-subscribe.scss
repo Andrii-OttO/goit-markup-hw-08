@@ -71,7 +71,7 @@
   }
   .subscribe_email__box {
     display: inline-block;
-    
+    margin-right: 0;
   }
   .subscribe_email__button {
     margin-top: 20px;
@@ -92,10 +92,12 @@
     align-items: center;
   }
   .subscribe_text {
-  margin-left: 116px;
+  display: flex;
+  justify-content: center;
   }
   .subscribe_email__box {
     width: 450px;
     margin-bottom: 20px;
+    margin-right: 0;
   }
 }

@@ -46,10 +46,6 @@ body {
 }
 
 .works {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
   padding-bottom: 94px;
 }
 
@@ -63,23 +59,26 @@ body {
   margin-bottom: 50px;
 }
 
-.advantage, .team__container, .clients, .presentation {
+.container {
   width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+
+.advantage, .team, .clients, .presentation {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200PX) {
-  .advantage, .team__container, .clients, .presentation {
+  .container {
     width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .advantage, .team__container, .clients, .presentation {
+  .container {
     width: 1200px;
   }
 }
@@ -597,6 +596,8 @@ body {
 .footer {
   background: var(--background-grey);
   color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer_aline {
@@ -606,8 +607,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 @media screen and (max-width: 767px) {
@@ -793,6 +792,7 @@ body {
   }
   .subscribe_email__box {
     display: inline-block;
+    margin-right: 0;
   }
   .subscribe_email__button {
     margin-top: 20px;
@@ -814,11 +814,13 @@ body {
     align-items: center;
   }
   .subscribe_text {
-    margin-left: 116px;
+    display: flex;
+    justify-content: center;
   }
   .subscribe_email__box {
     width: 450px;
     margin-bottom: 20px;
+    margin-right: 0;
   }
 }
 
@@ -844,6 +846,15 @@ body {
 
 .accent {
   color: #2196f3;
+}
+
+@media screen and (max-width: 1200px) {
+  .logo {
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    margin-right: 88px;
+  }
 }
 
 .nav {
@@ -926,10 +937,21 @@ body {
   .nav__address {
     display: block;
     flex-direction: column;
-    padding-left: 84px;
+    margin-left: 84px;
+  }
+  .nav__address__contact {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.02em;
   }
   .nav__address__contact:first-child {
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav__address_item:nth-child(1) {
+    margin-right: 50px;
   }
 }
 
@@ -1267,7 +1289,7 @@ body {
     display: block;
     flex-direction: column;
   }
-  .presentation__thumb {
+  .presentation__thumb:not(:last-child) {
     margin-bottom: 30px;
   }
 }
