@@ -73,8 +73,8 @@ color: #2196f3;
     flex-direction: column;
     padding-left: 84px;
   }
-  .nav__item:nth-child(:last-child) {
-    margin-top: 10px;
+  .nav__address__contact:first-child {
+    margin-bottom: 10px;
   }
   // .nav__link__current::after {
   //   bottom: -37px;

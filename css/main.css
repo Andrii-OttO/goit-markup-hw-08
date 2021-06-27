@@ -928,8 +928,8 @@ body {
     flex-direction: column;
     padding-left: 84px;
   }
-  .nav__item:nth-child(:last-child) {
-    margin-top: 10px;
+  .nav__address__contact:first-child {
+    margin-bottom: 10px;
   }
 }
 
@@ -1086,7 +1086,7 @@ body {
 
 @media (min-device-pixel-ratio: 2) and (max-width: 1600px), (min-resolution: 192dpi) and (max-width: 1600px), (min-resolution: 2dppx) and (max-width: 1600px) {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/desctop-img-hero@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/desctop-img-hero@2x.jpg);
     object-position: center;
     background-size: cover;
   }
@@ -1122,7 +1122,7 @@ body {
 
 @media (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1200px), (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1200px), (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1200px) {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/tablet-img-hero@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet-img-hero@2x.jpg);
   }
 }
 
@@ -1137,7 +1137,7 @@ body {
 
 @media (min-device-pixel-ratio: 2) and (max-width: 768px), (min-resolution: 192dpi) and (max-width: 768px), (min-resolution: 2dppx) and (max-width: 768px) {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/mobile-img-hero@2x.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile-img-hero@2x.jpg);
   }
   .hero__title {
     font-family: Roboto;
@@ -1258,8 +1258,11 @@ body {
 
 @media screen and (max-width: 767px) {
   .presentation__list {
-    display: flex;
+    display: block;
     flex-direction: column;
+  }
+  .presentation__thumb {
+    margin-bottom: 30px;
   }
 }
 
@@ -1271,9 +1274,17 @@ body {
     margin-left: -30px;
   }
   .presentation__item {
+    display: flex;
     margin-top: 30px;
     margin-left: 30px;
     flex-basis: calc((100% - 60px) / 2);
+  }
+  .presentation__link {
+    display: flex;
+    flex-direction: column;
+  }
+  .presentation__thumb {
+    flex-grow: 1;
   }
 }
 
