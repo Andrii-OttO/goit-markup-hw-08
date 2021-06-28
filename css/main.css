@@ -71,12 +71,15 @@ body {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 4800px) {
+  .advantage, .team, .clients, .presentation {
+    width: 480px;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 1200PX) {
   .container {
     width: 768px;
-  }
-  .advantage, .team, .clients, .presentation {
-    width: auto;
   }
 }
 
@@ -612,6 +615,12 @@ body {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 480px) {
+  .footer {
+    width: 480px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .footer_aline {
     flex-direction: column;
@@ -1137,7 +1146,7 @@ body {
   margin-bottom: 20px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 480px) and (max-width: 1200px) {
   .hero {
     padding: 118px 0;
     background-size: cover;
@@ -1152,22 +1161,23 @@ body {
   }
 }
 
-@media (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1200px), (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1200px), (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1200px) {
+@media (min-device-pixel-ratio: 2) and (min-width: 480px) and (max-width: 1200px), (min-resolution: 192dpi) and (min-width: 480px) and (max-width: 1200px), (min-resolution: 2dppx) and (min-width: 480px) and (max-width: 1200px) {
   .hero {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/tablet-img-hero@2x.jpg);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .hero {
     padding: 118px 0;
     background-size: cover;
     object-position: center;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile-img-hero.jpg);
+    width: 480px;
   }
 }
 
-@media (min-device-pixel-ratio: 2) and (max-width: 768px), (min-resolution: 192dpi) and (max-width: 768px), (min-resolution: 2dppx) and (max-width: 768px) {
+@media (min-device-pixel-ratio: 2) and (max-width: 480px), (min-resolution: 192dpi) and (max-width: 480px), (min-resolution: 2dppx) and (max-width: 480px) {
   .hero {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/mobile-img-hero@2x.jpg);
     width: 480px;
