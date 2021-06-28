@@ -27,6 +27,9 @@
       .container{
         width: 768px;
       }
+      .advantage, .team, .clients, .presentation {
+        width: auto;
+      }
     }
   @media screen and (min-width:1200px) {
     .container{
