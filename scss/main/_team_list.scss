@@ -34,10 +34,10 @@
     justify-content: center;
   }
   .team__item {
-    margin-bottom: 30px;
     max-width: 450px;
   }
   .team__item:not(:last-child) {
+    margin-bottom: 30px;
     margin-right: 0;
   }
 }
